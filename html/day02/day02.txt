@@ -1,0 +1,56 @@
+HTML should be formatted according ot the whole page first 
+
+Client --------------------> www.navercom (domain) ---> frontend serever (ip adress)
+       request(html,css,js)
+       < ---------------------
+                            resources need to build the website 
+
+client --------> action -----------> backend server 
+
+
+Sure, here's a summarized version in bullet points:
+
+- **Client Initialization**:
+  - Client triggers an action (e.g., clicking a link, submitting a form).
+
+- **Formulation of the Request**:
+  - Client creates an HTTP request.
+  - Includes HTTP method, URL, headers, and optionally a request body.
+
+- **Transmission of the Request**:
+  - Client sends the request over the network to the frontend server.
+
+- **Frontend Server Processing**:
+  - Server receives and processes the request.
+  - Routes to appropriate handler/controller.
+  - Parses headers and body.
+  - Authenticates the client if required.
+  - Executes business logic or preprocessing.
+
+- **Interaction with Backend Services (Optional)**:
+  - Frontend server may interact with backend services on behalf of the client.
+
+- **Generation of Response**:
+  - Frontend server creates an HTTP response.
+  - Includes status code, headers, and optionally a response body.
+
+- **Transmission of the Response**:
+  - Server sends the response back to the client over the network.
+
+- **Client Processing**:
+  - Client receives and processes the response.
+  - Renders HTML content, parses JSON data, or handles binary files.
+
+This process enables communication between the client and the frontend server via HTTP, facilitating interaction with the application or service provided by the server.
+
+**Webiste for learning Html**
+
+https://developer.mozilla.org/en-US/
+
+Do 5 - 10 excercises per day 
+3- thigns I will often used
+2. things to use sometimes 
+1- thing i rarely use 
+
+
+Images in the front end are pulled form the backend server 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <style>
+        #div1{
+            background-color: lightgrey;
+            padding: 10px;
+        }
+        #div2{
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        #div3{
+            background-color: lightsalmon;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Sign up conainter input options start -->
+    <!-- **DON'T PUT A DIV TAG INSIDE A P TAG** -->
+        
+    <div id="div1">
+        <H1>📋 Input Types</H1>
+            <input placeholder="Text input" type="text">
+            <p>
+            <input placeholder="Password input" type="password">
+            </p>
+            <input placeholder="blue" type="color">
+            <p> 
+            <button onclick="buttonAlert()">I am a Button, Click to alert</button>
+            <button onclick="buttonAlert()">I am a Button, Click to alert</button>
+            </p>
+            <select name="Options" id="">
+                <option selected disabled> Options list </option>
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+            </select> 
+        </div>
+
+        <!-- Radio Buttons:used in groups where the user can select 
+            only one option out of multiple options
+            
+            ** For attribute connects two diffrent elements using an id attribute.-->
+            
+        
+        <div id="div2">
+            <h2>📻 Radio Buttons / For attribute</h2>
+            <!-- Linked a radion button to a label using the for attribute-->
+            <input type="radio" name="radios" id="radio1"/> <label for="radio1">radio 1</label> 
+            <input type="radio" name="radios" id="radio2"/> <label for="radio2">radio 2</label> 
+            <input type="radio" name="radios" id="radio3"/> <label for="radio3">radio 3</label> 
+            <input type="radio" name="radios" id="radio4"/> <label for="radio4">radio 4</label> 
+        </div>
+        <!-- Family -->
+        <div id="div3">
+            <h2>✅ Checkbox Inputs</h2>
+            <input type="checkbox"/> checkbox 1
+            <input type="checkbox"/> checkbox 2
+            <input type="checkbox"/> checkbox 3
+            <input type="checkbox"/> checkbox 4
+        </div>
+    <!-- Sign up conainter input options end -->
+
+    <!-- 1. text value is the default value
+          2. Inpu tages dont have a closing tag -->
+
+    <script>
+        function buttonAlert(){
+            alert("I am a Button")
+        }
+        
+    </script>
+</body>
+</html>
