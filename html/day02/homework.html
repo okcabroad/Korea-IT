@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+    
+     body {
+    margin: 0; 
+    font-size: larger;
+        }
+        #headerDiv {
+            display: flex;
+            color: white;
+            background-color: black;
+            margin-top: 10px;
+            width: 100%;
+            justify-content: center; 
+             align-items: center;
+            padding: 10px;
+        }
+
+        #headerContent {
+            text-align: center; 
+            width: 50%; 
+        }
+        marquee {
+            width: 100%;
+            font-size: x-large;
+        }
+
+        #textMarquee {
+            color: orange;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .textContainer {
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        button {
+            background-color: rgb(255, 166, 0);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="headerDiv">
+        <div id="headerContent">
+            <marquee id="textMarquee" behavior="" direction=""> 
+            °。°。°A Quick Intro to Me°。°。°。
+            </marquee>
+            <br>
+            <marquee behavior="" direction="">
+            °。°。°。°。° (☯ ͟ʖ☯) °。°。°。°。°。
+        
+            </marquee>
+        </div>
+    </div>
+   
+    <div>
+        <div class="textContainer">
+        <h2> 👋 Brief Intro</h2>
+            <p>
+                Hello, my name is Oliver Clarke and I am 22 years old. I am origionally half Korean and English 
+                and just graduated from my Bachelors degree in Business in the UK. I am currently preparing for 
+                a Masters Degree back in the UK. 
+                <p>저는 한국어를 할 줄 알지만 그렇게 잘 읽거나 쓸 수는 없어요 😔</p>
+                
+            </p>
+        </div>
+        <div class="textContainer">
+        <h2> 👾 Why start Coding?</h2>
+                <p>
+                    I started coding because I'v always really enjoyed technolgy and making things.
+                    Being a business major I really missed the idea of creating things and being able to apply technical skills in my career. 
+                    As such I becmae interesed in coding and started learning by mainly web dev and python myself through the 
+                    <button onclick="openOdinProject()">Odin Project</button> and <button button onclick="openFreeCodeCamp()">Freecode Camp</button>.  Moreover, after the Korea IT course, 
+                    I've also deciede to enroll in a <button onclick="openBristolMasters()">Conversion Masters</button> degree in Computer Sciece to expand my skills.
+                </p>
+                
+        </div>
+        <div class="textContainer">
+            <h2> 🚀 Future Aspirations</h2>
+                <p>
+                    "In the future, I want to become a software engineer, hopefully becoming a full-stack developer. 
+                    I would also love to move to the USA eventually and have a stint in Big Tech at a FAANG company."
+                </p>
+                <p><b><i>Contact Details:</i></b></pp>
+                <p><b>E-Mail:</b> okcabraod@gmail.com</p>
+                <p><b>Git-Hub</b> <a href="https://github.com/okcabroad/Korea-IT">https://github.com/okcabroad/Korea-IT</a></p>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script>
+        function openOdinProject(){
+            window.open("https://www.theodinproject.com/");
+        }
+
+        function openFreeCodeCamp(){
+            window.open("https://www.freecodecamp.org/learn/")
+        }
+
+        function openBristolMasters(){
+            window.open("https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/")
+        }
+    </script>
+</body>
+</html>
