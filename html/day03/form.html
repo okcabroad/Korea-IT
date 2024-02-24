@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+    Actiion is not used often at the momment
+
+    Methd Attribute: 
+
+    GET: The GET method appends the form data to the URL specified 
+    in the action attribute and sends it to the server as part of 
+    the URL query string. This method is typically used when the 
+    form submission does not involve sensitive information and when 
+    you want the form data to be visible in the URL.
+
+    POST: The POST method sends the form data to the server in the 
+    request body, separate from the URL. This method is commonly 
+    used when submitting sensitive information, large amounts of 
+    data, or when you don't want the form data to be visible in the URL.
+
+    defult button value is submit
+
+
+--> 
+    <form action="#" method="get">
+       
+        <p>
+            <label>Username</label>
+            <input type="email" placeholder="username" name="user:name"
+        </p>
+        <button type="button">button without input</button>
+        <p>
+            <label>Password</label>
+            <input type="password" placeholder="password" name="user-pw">
+        </p>                
+        <button>submit</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+Sematic Web dev 
+
+Semantic HTML, also known as semantic markup, refers to the use of HTML tags that convey the meaning—or semantics—of the content contained within them.
+
+By adding semantic HTML tags to your pages, you provide additional information that helps define the roles and relative importance of the different parts of your page.
+    1. Accesibility 
+        e.g. screen readers for visually impaired people 
+    2. SEO (Search engine optimization)
+
+(As opposed to non-semantic HTML, which uses tags that don’t directly convey meaning.)
+
+Common tags for Semantic Dev 
+
+1. Header 
+
+2. Nav 
+    A set of navigation links:
+
+3. Main 
+    body 
+
+4. Section 
+    generic sectioning element,
+
+5. Article 
+    specifies independent, self-contained content.
+
+6. Aside 
+     content aside from the content it is placed in.
+
+7. Footer
