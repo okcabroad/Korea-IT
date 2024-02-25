@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom
+    </title>
+    <style>
+
+
+        div{
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul > div:nth-last-of-type(even) {
+            color: peru;
+        }
+        ul > div:nth-last-of-type(9) {
+            color: red; 
+            font-style: italic;
+        }
+    div::before {
+       content: "This was added with a 'div::before' " ;
+    }
+
+    div::after{
+        content: " this is after";
+        background-color: grey;
+        
+    }
+     p{
+        background-color: green;
+        margin-left: 5%
+        ;
+     }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <p>I am before the Divs </p>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+       
+    </ul>
+
+    
+</body>
+</html>

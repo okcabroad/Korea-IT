@@ -16,7 +16,9 @@ UPPERCASE: All letters capitalized, words may be separated by underscore
 
 --------------------------––––––––––––-----------------------------------------------------------------------------
 
-Selectors 
-   
-Global Secltors:
-    * selects all files in the html file 
+Child and parent elements 
+
+e.g. a p in a menu parent 
+    .menu > p {}
+
+
