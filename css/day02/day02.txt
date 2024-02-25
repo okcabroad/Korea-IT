@@ -1,0 +1,22 @@
+ID and Class Attribute --> The HTML ID attribute is used to uniquely identify an element on a DOM. 
+
+Class can be assigned to multipel diffrent elements 
+
+ID's can only be assigned to certain elements 
+
+CamelCase: Words are concatenated, with each word after the first beginning with a capital letter.
+
+snake_case: Words are separated by underscores, all lowercase.
+
+kebab-case: Words are separated by hyphens, all lowercase.
+
+PascalCase: Like CamelCase, but with the first letter of each word capitalized.
+
+UPPERCASE: All letters capitalized, words may be separated by underscore
+
+--------------------------––––––––––––-----------------------------------------------------------------------------
+
+Selectors 
+   
+Global Secltors:
+    * selects all files in the html file 

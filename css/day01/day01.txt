@@ -1,0 +1,15 @@
+CSS
+
+Cascading Style Sheet 
+
+1. Inline CSS:
+    This involves applying CSS directly within an HTML element's style attribute. For example:
+    code exctues from top to bottom 
+
+2. Internal CSS: 
+    Internal CSS is placed within the <style> element in the head section of an HTML document. It applies styles to the elements within that HTML file. For example:
+
+3. External CSS: 
+    External CSS is stored in a separate CSS file and linked to HTML documents using the <link> element. This allows you to apply styles across multiple HTML files. For example:
+
+    <link href="style.css" rel="stylesheet"> 
