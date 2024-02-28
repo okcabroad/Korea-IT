@@ -75,3 +75,29 @@
             width: 450px;
             border-radius: 3px;
         }
+
+       #mainContainer {
+        display: grid;
+        height: 100%;
+        place-items: center;
+       }
+
+       #grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+       }
+
+        .mainSectionContainer{
+            font-size: 22px;
+            background-color: lightblue;
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .category-list-svg-icon {
+            max-height: 80px;
+            margin-right: 20px;
+        }
