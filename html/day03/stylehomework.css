@@ -8,7 +8,7 @@
             background-color: black;
             align-items: center;
             justify-content: space-around;            
-            height: 50px;
+            height: 90px;
             
         }
 
@@ -74,7 +74,7 @@
             height: 50px;
             width: 800px;
             border-radius: 3px;
-            
+
         }
 
        #mainContainer {
@@ -120,3 +120,51 @@
                 gap: 10px; /* Adjust gap for smaller screens */
             }
         }
+
+        #footer {
+            background-color: black;
+            padding: 50px;
+        }
+
+        #footerContainter {
+            display: grid;
+            height: 100%;
+            place-items: center;
+        }
+
+        #footerGrid {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(80px, 1fr));
+        
+            gap: 20px;
+        }
+
+        .footerText {
+            color: white;
+            font-size: 18px;
+            text-align: left;
+            width: 100px;
+        }
+
+    .links {
+        color: white;
+        text-decoration: none;
+    }
+
+    #rightFooterDiv {
+        display: flex;
+        align-items: flex-end;
+    }
+
+  .footerTitles {
+    color: #dadbf1;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  /* Media query to stack the p elements vertically */
+@media screen and (max-width: 600px) {
+    #footerGrid {
+        grid-template-columns: repeat(5, 1fr); /* Each column takes full width */
+    }
+}
