@@ -54,7 +54,7 @@
 
         #searchBarSection {
             background-color:#dadbf1;
-            height: 200px;
+            height: 400px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -62,7 +62,7 @@
         }
 
         #searchHelp {
-            font-size: xxx-large;
+            font-size: 80px;
     
         }
 
@@ -71,33 +71,52 @@
         }
 
         #searchInput{
-            height: 30px;
-            width: 450px;
+            height: 50px;
+            width: 800px;
             border-radius: 3px;
+            
         }
 
        #mainContainer {
         display: grid;
         height: 100%;
         place-items: center;
+        margin: 200px; 
        }
 
        #grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(100px, 1fr)); /* Two columns with min-width of 200px */
         grid-template-rows: repeat(3, 1fr);
         gap: 20px;
        }
 
         .mainSectionContainer{
             font-size: 22px;
-            background-color: lightblue;
             display: flex;
             flex-direction: row;
+          
             
         }
 
         .category-list-svg-icon {
             max-height: 80px;
             margin-right: 20px;
+        }
+
+        .learnMore {
+            text-decoration: none;
+            color: #4C5FD5;
+        }
+
+        @media screen and (max-width: 600px) {
+            #searchInput {
+                width: 100%; /* Adjust input width for smaller screens */
+                max-width: 300px; /* Limit maximum input width */
+            }
+        
+            #grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust grid columns for smaller screens */
+                gap: 10px; /* Adjust gap for smaller screens */
+            }
         }
